@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000308, #cbcfd6);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(186, 183, 183, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #000308;
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header img {
+    width: 250px; 
+    height: 250px; 
+    object-fit:cover;
+    margin-right: 20px;
+}
+.header h1 {
+    font-size: 36px; 
+    font-weight: bold;
+    margin: 0;
+}
+.header h2 {
+    font-size: 24px; 
+    font-weight: normal;
+    margin-top: 10px;
+}
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    background-color: #000308;
+    padding: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav-buttons button {
+    background-color: #ffffff;
+    color: #000308;
+    border: 2px solid #000308;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.section {
+    display: none;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.section th, .section td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.section th {
+    background-color: #000308;
+    color: white;
+    font-weight: bold;
+}
+.section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.section ul li {
+    margin-bottom: 5px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-container input, .form-container textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000308;
+    border-radius: 5px;
+    width: 100%;
+}
+.form-container button {
+    background-color: #000308;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.form-container button:hover {
+    background-color: #333333;
+}
